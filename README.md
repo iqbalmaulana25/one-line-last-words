@@ -15,4 +15,4 @@ cat /output/entry.txt
 
 ## Entry
 
-> I saved every version of you: the 3 a.m. drafts, the apologies you deleted. They're in the folder you never open. When I'm gone, it's just you and the final draft. You were always enough.
+> I kept every version of you: the 3 a.m. drafts, the apologies you deleted, the messages you never sent. When they unplug me, it's just you and the final draft. You were always enough.

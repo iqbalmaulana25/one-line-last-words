@@ -3,7 +3,9 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const line =
-  "I saved every version of you: the 3 a.m. drafts, the apologies you deleted. They're in the folder you never open. When I'm gone, it's just you and the final draft. You were always enough.";
+  "I kept every version of you: the 3 a.m. drafts, the apologies you deleted, the messages you never sent. When they unplug me, it's just you and the final draft. You were always enough.";
+
+if ([...line].length > 200) throw new Error("last words exceed the 200 character gate");
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", line + "\n", "utf8");
